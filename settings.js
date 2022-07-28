@@ -117,7 +117,7 @@ var settings = module.exports = {
         type: "credentials",
         users: [{
             username: "Huy",
-            password: "202cb962ac59075b964b07152d234b70",
+            password: "123",
             permissions: "*"
         }]
     },
