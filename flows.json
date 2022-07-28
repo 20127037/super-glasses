@@ -592,35 +592,6 @@
         ]
     },
     {
-        "id": "de843b6b0357534a",
-        "type": "inject",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload.response",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 470,
-        "y": 420,
-        "wires": [
-            [
-                "e14a342f4c989fcc"
-            ]
-        ]
-    },
-    {
         "id": "3a59f29487226e2f",
         "type": "ui_template",
         "z": "e97ffe7330781f7d",
