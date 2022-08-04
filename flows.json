@@ -8,659 +8,111 @@
         "env": []
     },
     {
-        "id": "83f8bd9fb1569ac7",
-        "type": "ui_button",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "group": "061b7add36b698f8",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Go to the Login Page",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"App_Intro\", \"App_Logs\", \"App_Adjustment\"], \"show\":[\"App_Login\"]}}",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 760,
-        "y": 120,
-        "wires": [
-            [
-                "3d47f2cbbce208f5"
-            ]
-        ]
-    },
-    {
-        "id": "3c8433012c609088",
-        "type": "ui_button",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "group": "a9b33ea4ff1e3666",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Sign me out!",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"App_Logs\", \"App_Adjustment\"], \"show\":[\"App_Intro\"]}}",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 750,
-        "y": 660,
-        "wires": [
-            [
-                "3d47f2cbbce208f5"
-            ]
-        ]
-    },
-    {
-        "id": "2f22fbd4bd9fd6bf",
-        "type": "ui_text",
-        "z": "e97ffe7330781f7d",
-        "group": "b9572d272457866e",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Logs",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 110,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "5fafa9eda20f139d",
-        "type": "ui_text",
-        "z": "e97ffe7330781f7d",
-        "group": "a9b33ea4ff1e3666",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Adjustment Area",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 500,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "ab0bf26a6c11917d",
-        "type": "ui_text_input",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "label": "Distance to obstacles",
-        "tooltip": "",
-        "group": "a9b33ea4ff1e3666",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 480,
-        "y": 780,
-        "wires": [
-            [
-                "69943755c186aa6c"
-            ]
-        ]
-    },
-    {
-        "id": "c881ea3cca0e9102",
-        "type": "ui_dropdown",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "label": "Bell melody",
-        "tooltip": "",
-        "place": "Sound",
-        "group": "a9b33ea4ff1e3666",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "Ocean",
-                "value": "ocean",
-                "type": "str"
+        "id": "a0adc8be44c35266",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#032e3f",
+                "baseFont": "Times New Roman,Times,serif",
+                "edited": true,
+                "reset": false
             },
-            {
-                "label": "Bird",
-                "value": "bird",
-                "type": "str"
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#f1e9eb",
+                "baseFont": "Georgia,Georgia,serif",
+                "edited": true,
+                "reset": false
             },
-            {
-                "label": "Door knocking",
-                "value": "door_knocking",
-                "type": "str"
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#032e3f",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#032e3f",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#066388",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#032e3f",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Times New Roman,Times,serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
             }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 510,
-        "y": 840,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f467dc497b8842e9",
-        "type": "ui_template",
-        "z": "e97ffe7330781f7d",
-        "group": "a9b33ea4ff1e3666",
-        "name": "",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    [node-id=\"5fafa9eda20f139d\"], [node-id=\"2f22fbd4bd9fd6bf\"] {\n    font-size: 120%;\n    font-weight: bold;\n}\n\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 200,
-        "y": 840,
-        "wires": [
-            [
-                "5fafa9eda20f139d",
-                "2f22fbd4bd9fd6bf"
-            ]
-        ]
-    },
-    {
-        "id": "3d47f2cbbce208f5",
-        "type": "ui_ui_control",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "events": "all",
-        "x": 1140,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2651401fb6c0b6bf",
-        "type": "ui_template",
-        "z": "e97ffe7330781f7d",
-        "group": "061b7add36b698f8",
-        "name": "Greeting",
-        "order": 1,
-        "width": "6",
-        "height": "2",
-        "format": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n    h2 {\n        text-align: center;\n        line-height: 1.5;\n        font-size: 150%;\n    }\n</style>\n</head>\n<body>\n    <h2> Welcome to <br> the monitoring site of <br> Smart Glasses </h2>\n\n</body>\n</html>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 500,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "57c41ad094cefb75",
-        "type": "ui_form",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "label": "",
-        "group": "ad3154be14dd1c13",
-        "order": 1,
-        "width": "6",
-        "height": "1",
-        "options": [
-            {
-                "label": "Username",
-                "value": "username",
-                "type": "text",
-                "required": true,
-                "rows": null
-            },
-            {
-                "label": "Password",
-                "value": "password",
-                "type": "password",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "username": "",
-            "password": ""
         },
-        "payload": "",
-        "submit": "submit",
-        "cancel": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "splitLayout": true,
-        "className": "",
-        "x": 90,
-        "y": 340,
-        "wires": [
-            [
-                "3e274c7e3f3187c4"
-            ]
-        ]
-    },
-    {
-        "id": "3e274c7e3f3187c4",
-        "type": "function",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "func": "var account = {\n    username: msg.payload.username,\n    password: msg.payload.password\n}\nmsg.payload = JSON.stringify(account)\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 240,
-        "y": 340,
-        "wires": [
-            [
-                "b22924c806f6b3c7"
-            ]
-        ]
-    },
-    {
-        "id": "b22924c806f6b3c7",
-        "type": "mqtt out",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "topic": "message/LoginInfo",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "9cb108d764c143b7",
-        "x": 490,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "4c3f52e0f168affa",
-        "type": "mqtt in",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "topic": "message/LoginResponse",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "9cb108d764c143b7",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 150,
-        "y": 460,
-        "wires": [
-            [
-                "41e735bc49538a03"
-            ]
-        ]
-    },
-    {
-        "id": "e14a342f4c989fcc",
-        "type": "switch",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "property": "payload.response",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "0",
-                "vt": "num"
-            },
-            {
-                "t": "cont",
-                "v": "1",
-                "vt": "num"
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 60,
+                "sy": 80,
+                "gx": 0,
+                "gy": 3,
+                "cx": 1,
+                "cy": 0,
+                "px": 1,
+                "py": 0
             }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 530,
-        "y": 460,
-        "wires": [
-            [
-                "d69629872b8955aa"
-            ],
-            [
-                "fd8261fc4fe9d304"
-            ]
-        ]
+        }
     },
     {
-        "id": "fd8261fc4fe9d304",
-        "type": "change",
-        "z": "e97ffe7330781f7d",
-        "name": "Login Successfully",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\"group\":{\"hide\":[\"App_Login\"], \"show\":[\"App_Logs\", \"App_Adjustment\"]}}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 750,
-        "y": 460,
-        "wires": [
-            [
-                "3d47f2cbbce208f5"
-            ]
-        ]
-    },
-    {
-        "id": "d69629872b8955aa",
-        "type": "ui_template",
-        "z": "e97ffe7330781f7d",
-        "group": "ad3154be14dd1c13",
-        "name": "Login Failed",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "format": "<!DOCTYPE html>\n<html>\n<body>\n    <p>Your credentials have not been verified yet</p>\n</body>\n</html>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 730,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "22ff36b68188256a",
-        "type": "ui_button",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "group": "ad3154be14dd1c13",
-        "order": 3,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "label": "Bring me back to the Welcome page",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "button1",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"App_Login\"], \"show\":[\"App_Intro\"]}}",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 810,
-        "y": 280,
-        "wires": [
-            [
-                "3d47f2cbbce208f5"
-            ]
-        ]
-    },
-    {
-        "id": "41e735bc49538a03",
-        "type": "json",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 370,
-        "y": 460,
-        "wires": [
-            [
-                "e14a342f4c989fcc"
-            ]
-        ]
-    },
-    {
-        "id": "8a80ea127d830602",
-        "type": "comment",
-        "z": "e97ffe7330781f7d",
-        "name": "Section Login _______________________________________________________________________________________________________",
-        "info": "",
-        "x": 500,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "773adb6618195cbf",
-        "type": "comment",
-        "z": "e97ffe7330781f7d",
-        "name": "Section Dashboard  ______________________________________________________________________________________",
-        "info": "",
-        "x": 450,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "ddfc20dbacd6f8c3",
-        "type": "comment",
-        "z": "e97ffe7330781f7d",
-        "name": "Section Intro  _______________________________________________________________________________________________",
-        "info": "",
-        "x": 460,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "6a35b4b5fd300c24",
-        "type": "ui_switch",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "label": "Status",
-        "tooltip": "",
-        "group": "a9b33ea4ff1e3666",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 530,
-        "y": 720,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "69943755c186aa6c",
-        "type": "function",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "func": "if (msg.payload !== '')\n    msg.payload = JSON.stringify({distance: msg.payload})\nelse msg.payload = 'Empty string'\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 660,
-        "y": 780,
-        "wires": [
-            [
-                "37690805764accbf",
-                "b03b176aec995485"
-            ]
-        ]
-    },
-    {
-        "id": "37690805764accbf",
-        "type": "mqtt out",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "topic": "message/ObstacleDistance",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "9cb108d764c143b7",
-        "x": 880,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "9e34b4e234fad444",
-        "type": "ui_template",
-        "z": "e97ffe7330781f7d",
-        "group": "061b7add36b698f8",
-        "name": "",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    .nr-dashboard-cardcontainer {\n        margin-top: 120px;\n    }\n    .nr-dashboard-button {\n        height: 20% !important;\n    }\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 100,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7ba03d6901b1c555",
-        "type": "ui_template",
-        "z": "e97ffe7330781f7d",
-        "group": "ad3154be14dd1c13",
-        "name": "",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    .nr-dashboard-form-button {\n        height: 50% !important;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n    .md-button {\n        height: 50% !important;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n    \n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 100,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3a59f29487226e2f",
-        "type": "ui_template",
-        "z": "e97ffe7330781f7d",
-        "group": "a9b33ea4ff1e3666",
-        "name": "",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n    #App_Adjustment_cards {\n        height: 580px !important;\n    }\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 660,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b03b176aec995485",
-        "type": "debug",
-        "z": "e97ffe7330781f7d",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 790,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "061b7add36b698f8",
-        "type": "ui_group",
-        "name": "Intro",
-        "tab": "b97a11b97c8b88db",
-        "order": 1,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "a9b33ea4ff1e3666",
-        "type": "ui_group",
-        "name": "Adjustment",
-        "tab": "b97a11b97c8b88db",
-        "order": 4,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "b9572d272457866e",
-        "type": "ui_group",
-        "name": "Logs",
-        "tab": "b97a11b97c8b88db",
-        "order": 3,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
+        "id": "b97a11b97c8b88db",
+        "type": "ui_tab",
+        "name": "App",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "ad3154be14dd1c13",
@@ -669,7 +121,40 @@
         "tab": "b97a11b97c8b88db",
         "order": 2,
         "disp": true,
-        "width": "6",
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "061b7add36b698f8",
+        "type": "ui_group",
+        "name": "Intro",
+        "tab": "b97a11b97c8b88db",
+        "order": 1,
+        "disp": false,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9572d272457866e",
+        "type": "ui_group",
+        "name": "Logs",
+        "tab": "b97a11b97c8b88db",
+        "order": 4,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a9b33ea4ff1e3666",
+        "type": "ui_group",
+        "name": "Adjustment",
+        "tab": "b97a11b97c8b88db",
+        "order": 5,
+        "disp": false,
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -700,11 +185,1647 @@
         "sessionExpiry": ""
     },
     {
-        "id": "b97a11b97c8b88db",
+        "id": "2c0e0bd02f3de157",
+        "type": "ui_group",
+        "name": "Welcome",
+        "tab": "b97a11b97c8b88db",
+        "order": 3,
+        "disp": false,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a9b430563f20981d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9a3dd8472476b8f4",
         "type": "ui_tab",
-        "name": "App",
+        "name": "Event Logs",
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "a8de552b7d3d1abf",
+        "type": "ui_spacer",
+        "z": "e97ffe7330781f7d",
+        "name": "spacer",
+        "group": "061b7add36b698f8",
+        "order": 3,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "1c96af7e6dd04835",
+        "type": "ui_spacer",
+        "z": "e97ffe7330781f7d",
+        "name": "spacer",
+        "group": "061b7add36b698f8",
+        "order": 5,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "83f8bd9fb1569ac7",
+        "type": "ui_button",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "group": "061b7add36b698f8",
+        "order": 4,
+        "width": 9,
+        "height": 1,
+        "passthru": false,
+        "label": "Go to the Login Page",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"App_Intro\", \"App_Logs\", \"App_Adjustment\", \"App_Welcome\"], \"show\":[\"App_Login\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1680,
+        "y": 140,
+        "wires": [
+            [
+                "3d47f2cbbce208f5"
+            ]
+        ]
+    },
+    {
+        "id": "3c8433012c609088",
+        "type": "ui_button",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "group": "2c0e0bd02f3de157",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Sign me out!",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"App_Logs\", \"App_Adjustment\", \"App_Welcome\"], \"show\":[\"App_Intro\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1670,
+        "y": 820,
+        "wires": [
+            [
+                "3d47f2cbbce208f5"
+            ]
+        ]
+    },
+    {
+        "id": "2f22fbd4bd9fd6bf",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Event",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 350,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "5fafa9eda20f139d",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "a9b33ea4ff1e3666",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Adjustment Area",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 380,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "ab0bf26a6c11917d",
+        "type": "ui_text_input",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "label": "Distance to obstacles",
+        "tooltip": "",
+        "group": "a9b33ea4ff1e3666",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1320,
+        "y": 2160,
+        "wires": [
+            [
+                "69943755c186aa6c"
+            ]
+        ]
+    },
+    {
+        "id": "c881ea3cca0e9102",
+        "type": "ui_dropdown",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "label": "PIR's sound",
+        "tooltip": "",
+        "place": "Level",
+        "group": "a9b33ea4ff1e3666",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Low",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Average",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "High",
+                "value": 3,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "1",
+        "topicType": "str",
+        "className": "",
+        "x": 1290,
+        "y": 1940,
+        "wires": [
+            [
+                "c72472f7317ce530"
+            ]
+        ]
+    },
+    {
+        "id": "3d47f2cbbce208f5",
+        "type": "ui_ui_control",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "events": "all",
+        "x": 2220,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2651401fb6c0b6bf",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "061b7add36b698f8",
+        "name": "Greeting",
+        "order": 1,
+        "width": 9,
+        "height": 2,
+        "format": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n    h1 {\n        text-align: center;\n        line-height: 1.3;\n        font-size: 200%;\n        padding-bottom: 0;\n        margin-bottom: 0;\n    }\n    x {\n        color: rgb(194, 73, 48);\n    }\n</style>\n</head>\n<body>\n    <h1> Welcome to the monitoring site of <x> Super Glasses </x> </h1>\n</body>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57c41ad094cefb75",
+        "type": "ui_form",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "label": "",
+        "group": "ad3154be14dd1c13",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "options": [
+            {
+                "label": "Username",
+                "value": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "3e274c7e3f3187c4",
+                "7e3cf746fa2e9c75"
+            ]
+        ]
+    },
+    {
+        "id": "3e274c7e3f3187c4",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Wrap account info and send",
+        "func": "var account = {\n    username: msg.payload.username,\n    password: msg.payload.password\n}\nmsg.payload = JSON.stringify(account)\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 440,
+        "wires": [
+            [
+                "b22924c806f6b3c7",
+                "471ff9fc1ab89538"
+            ]
+        ]
+    },
+    {
+        "id": "b22924c806f6b3c7",
+        "type": "mqtt out",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/LoginInfo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb108d764c143b7",
+        "x": 690,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4c3f52e0f168affa",
+        "type": "mqtt in",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/LoginResponse",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "9cb108d764c143b7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 660,
+        "wires": [
+            [
+                "41e735bc49538a03"
+            ]
+        ]
+    },
+    {
+        "id": "e14a342f4c989fcc",
+        "type": "switch",
+        "z": "e97ffe7330781f7d",
+        "name": "Verify account",
+        "property": "payload.response",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "incorrect",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "guest",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 880,
+        "y": 660,
+        "wires": [
+            [
+                "c0c6ba06e1b5c930",
+                "8a1dc8499e449220"
+            ],
+            [
+                "fd8261fc4fe9d304",
+                "8a1dc8499e449220",
+                "328ea1bebd46475d"
+            ],
+            [
+                "8a1dc8499e449220",
+                "34b710d82c82969a",
+                "328ea1bebd46475d"
+            ]
+        ]
+    },
+    {
+        "id": "fd8261fc4fe9d304",
+        "type": "change",
+        "z": "e97ffe7330781f7d",
+        "name": "Login as Admin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"App_Login\"], \"show\":[\"App_Logs\", \"App_Adjustment\", \"App_Welcome\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 620,
+        "wires": [
+            [
+                "3d47f2cbbce208f5"
+            ]
+        ]
+    },
+    {
+        "id": "22ff36b68188256a",
+        "type": "ui_button",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "group": "ad3154be14dd1c13",
+        "order": 3,
+        "width": 7,
+        "height": 2,
+        "passthru": true,
+        "label": "Bring me back to the Welcome page",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "button1",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"App_Login\"], \"show\":[\"App_Intro\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1730,
+        "y": 300,
+        "wires": [
+            [
+                "3d47f2cbbce208f5"
+            ]
+        ]
+    },
+    {
+        "id": "41e735bc49538a03",
+        "type": "json",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 660,
+        "wires": [
+            [
+                "e14a342f4c989fcc"
+            ]
+        ]
+    },
+    {
+        "id": "8a80ea127d830602",
+        "type": "comment",
+        "z": "e97ffe7330781f7d",
+        "name": "Section Login _________________________________________________________________________________________________________________________________________________",
+        "info": "",
+        "x": 760,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "773adb6618195cbf",
+        "type": "comment",
+        "z": "e97ffe7330781f7d",
+        "name": "Section Dashboard _____________________________________________________________________________________________________________________________________________",
+        "info": "",
+        "x": 760,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "ddfc20dbacd6f8c3",
+        "type": "comment",
+        "z": "e97ffe7330781f7d",
+        "name": "Section Intro  __________________________________________________________________________________________________________________________________________________",
+        "info": "",
+        "x": 760,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6a35b4b5fd300c24",
+        "type": "ui_switch",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "label": "PIR status",
+        "tooltip": "",
+        "group": "a9b33ea4ff1e3666",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "1",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "HIGH",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LOW",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1290,
+        "y": 1880,
+        "wires": [
+            [
+                "01f4d078c07a0d83"
+            ]
+        ]
+    },
+    {
+        "id": "69943755c186aa6c",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Request distance change",
+        "func": "if (msg.payload !== '')\n    msg.payload = JSON.stringify({distance: msg.payload})\nelse msg.payload = 'Empty string'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 2160,
+        "wires": [
+            [
+                "37690805764accbf"
+            ]
+        ]
+    },
+    {
+        "id": "37690805764accbf",
+        "type": "mqtt out",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/ObstacleDistance",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb108d764c143b7",
+        "x": 1900,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "9e34b4e234fad444",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "061b7add36b698f8",
+        "name": "",
+        "order": 2,
+        "width": 9,
+        "height": 3,
+        "format": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n            .nr-dashboard-cardcontainer {\n                margin-top: 10px;\n                margin-bottom: 0;\n            }\n            .nr-dashboard-button {\n                height: 10% !important;\n            }\n            img {\n                width: 100% !important;\n                height: 100%!important;\n                box-sizing: border-box;\n            }\n        </style>\n    </head>\n    <body>\n        <img src = \"https://images.pexels.com/photos/3826678/pexels-photo-3826678.jpeg?auto=compress&cs=tinysrgb&w=600\">\n    </body>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ba03d6901b1c555",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "ad3154be14dd1c13",
+        "name": "",
+        "order": 2,
+        "width": 7,
+        "height": 3,
+        "format": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .nr-dashboard-form-button {\n            height: 50% !important;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n        .md-button {\n            height: 50% !important;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n        md-card {\n            padding: 0 !important;\n        }\n    </style>\n</head>\n<body>\n    <img src = \"https://www.verywellhealth.com/thmb/QBYmRyl639FJeR7UlqD3qygEh34=/fit-in/800x415/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CyxusHEV-AbsorbedBlueLightGlasses-2eb499fbbb3642ea9f8076b0847a1f0e.jpg\" />\n</body>\n</html>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d6f4e72c4c7fe42",
+        "type": "ui_toast",
+        "z": "e97ffe7330781f7d",
+        "position": "bottom right",
+        "displayTime": "2",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": true,
+        "className": "",
+        "topic": "",
+        "name": "Notify (Failed)",
+        "x": 1480,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c0c6ba06e1b5c930",
+        "type": "change",
+        "z": "e97ffe7330781f7d",
+        "name": "Login Failed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Your credentials are incorrect",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 540,
+        "wires": [
+            [
+                "5d6f4e72c4c7fe42"
+            ]
+        ]
+    },
+    {
+        "id": "471ff9fc1ab89538",
+        "type": "trigger",
+        "z": "e97ffe7330781f7d",
+        "name": "Inform server error after 3s",
+        "op1": "",
+        "op2": "The server may not be turned on. Try again later!",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "4",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "2",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "5d6f4e72c4c7fe42"
+            ]
+        ]
+    },
+    {
+        "id": "3a59f29487226e2f",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "a9b33ea4ff1e3666",
+        "name": "CSS for Adjustment",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    \n    [node-id=\"5fafa9eda20f139d\"] {\n    font-size: 120%;\n    font-weight: bold;\n    color: white !important;\n    background: rgb(22, 27, 74) !important;\n    border-radius: 10px 10px;\n    height: 50px !important;\n    display: flex;\n    justify-content: center;\n    }\n    \n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 590,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e3cf746fa2e9c75",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "2c0e0bd02f3de157",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Welcome back, @",
+        "format": "{{msg.payload.username}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 390,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "03e3af96ed437980",
+        "type": "ui_switch",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "label": "Ultrasonic status",
+        "tooltip": "",
+        "group": "a9b33ea4ff1e3666",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "2",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "HIGH",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LOW",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1300,
+        "y": 2000,
+        "wires": [
+            [
+                "01f4d078c07a0d83"
+            ]
+        ]
+    },
+    {
+        "id": "8a1dc8499e449220",
+        "type": "change",
+        "z": "e97ffe7330781f7d",
+        "name": "Deactivate the trigger because of server working",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "reset",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 540,
+        "wires": [
+            [
+                "471ff9fc1ab89538"
+            ]
+        ]
+    },
+    {
+        "id": "34452c6aa96be6ab",
+        "type": "ui_dropdown",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "label": "US's Sound",
+        "tooltip": "",
+        "place": "Level",
+        "group": "a9b33ea4ff1e3666",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Low",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Average",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "High",
+                "value": 3,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "2",
+        "topicType": "str",
+        "className": "",
+        "x": 1290,
+        "y": 2060,
+        "wires": [
+            [
+                "c72472f7317ce530"
+            ]
+        ]
+    },
+    {
+        "id": "c72472f7317ce530",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Request sound change",
+        "func": "msg.payload = JSON.stringify({type: msg.topic, mode: msg.payload})\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 1980,
+        "wires": [
+            [
+                "b7abefad5f2c15fe"
+            ]
+        ]
+    },
+    {
+        "id": "b7abefad5f2c15fe",
+        "type": "mqtt out",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/Sound",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb108d764c143b7",
+        "x": 1860,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "01f4d078c07a0d83",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Request button status change",
+        "func": "msg.payload = JSON.stringify({\n    command: 'write',\n    button: msg.topic,\n    status: msg.payload\n})\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 1920,
+        "wires": [
+            [
+                "5975ae691bdf3a42"
+            ]
+        ]
+    },
+    {
+        "id": "5975ae691bdf3a42",
+        "type": "mqtt out",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/Status",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb108d764c143b7",
+        "x": 1860,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "b328edc2576e2710",
+        "type": "mqtt out",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/Status",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb108d764c143b7",
+        "x": 1460,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "3794b7dfc5338b9b",
+        "type": "mqtt in",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/StatusResponse",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "9cb108d764c143b7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 1920,
+        "wires": [
+            [
+                "58711b42aed28711"
+            ]
+        ]
+    },
+    {
+        "id": "58711b42aed28711",
+        "type": "json",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 610,
+        "y": 1920,
+        "wires": [
+            [
+                "5c9c40f270bc513a",
+                "c1fbc11abea38a98"
+            ]
+        ]
+    },
+    {
+        "id": "d24e133d2b0252eb",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Fetch buttons' status",
+        "func": "msg.payload = JSON.stringify({command:\"read\"})\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 880,
+        "wires": [
+            [
+                "b328edc2576e2710"
+            ]
+        ]
+    },
+    {
+        "id": "5c9c40f270bc513a",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "fetch PIR's status",
+        "func": "if (msg.payload.PIR == 1) msg.payload = 'HIGH'\nelse msg.payload = 'LOW'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 1880,
+        "wires": [
+            [
+                "6a35b4b5fd300c24"
+            ]
+        ]
+    },
+    {
+        "id": "c1fbc11abea38a98",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "fetch US's status",
+        "func": "if (msg.payload.US == 1) msg.payload = 'HIGH'\nelse msg.payload = 'LOW'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 2000,
+        "wires": [
+            [
+                "03e3af96ed437980"
+            ]
+        ]
+    },
+    {
+        "id": "34b710d82c82969a",
+        "type": "change",
+        "z": "e97ffe7330781f7d",
+        "name": "Login as Guest",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"App_Login\"], \"show\":[\"App_Logs\", \"App_Welcome\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 700,
+        "wires": [
+            [
+                "3d47f2cbbce208f5"
+            ]
+        ]
+    },
+    {
+        "id": "328ea1bebd46475d",
+        "type": "trigger",
+        "z": "e97ffe7330781f7d",
+        "name": "Trigger buttons status",
+        "op1": "1",
+        "op2": "2",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-60",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 820,
+        "y": 780,
+        "wires": [
+            [
+                "d24e133d2b0252eb",
+                "f1d3115723069ef8"
+            ]
+        ]
+    },
+    {
+        "id": "e09096974476a0e2",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "061b7add36b698f8",
+        "name": "Author Reference",
+        "order": 6,
+        "width": 9,
+        "height": 2,
+        "format": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n    h3, p {\n        text-align: center;\n    }\n    div {\n        display: flex;\n        justify-content: space-between;\n    }\n    i {\n        color: rgb(20, 54, 115);\n    }\n</style>\n</head>\n<body>\n    <h3> A product of <i> THIRD TEAM </i> </h3>\n    <div>\n        <p> Nguyen Thien Phu </p>\n        <p> Le Nguyen Truong Huy </p>\n        <p> Truong Gia Huy </p>\n    </div>\n</body>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 630,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2ce3b4a9e2c0f76",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "061b7add36b698f8",
+        "name": "Contact",
+        "order": 7,
+        "width": 9,
+        "height": 2,
+        "format": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n    [node-id=\"d2ce3b4a9e2c0f76\"] {\n        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;\n    }\n    h3, p {\n        text-align: center;\n    }\n    div {\n        margin-top: 25px;\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n    }\n    .contact_img {\n        width: 30px !important;\n        height: 30px !important;\n    }\n</style>\n</head>\n<body>\n    <h3> Contact us </h3>\n    <div>\n        <img class = \"contact_img\" src = \"https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png\" />\n        <p> (+84) 77 4848 931 </p>\n        <img class = \"contact_img\" src = \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png\" />\n        <p> lnthuy20@clc.fitus.edu.vn </p>\n    </div>\n</body>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 840,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70ef6173d1f737df",
+        "type": "mqtt out",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/Log",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb108d764c143b7",
+        "x": 1460,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6653a37504c0a5b7",
+        "type": "mqtt in",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "topic": "message/LogResponse",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "9cb108d764c143b7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 1460,
+        "wires": [
+            [
+                "6d8509d1d00abaeb"
+            ]
+        ]
+    },
+    {
+        "id": "6d8509d1d00abaeb",
+        "type": "json",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 590,
+        "y": 1460,
+        "wires": [
+            [
+                "2684e2a7c307f71f"
+            ]
+        ]
+    },
+    {
+        "id": "2684e2a7c307f71f",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Format event",
+        "func": "const time_element = msg.payload.time.split(\"T\")\nconst date = time_element[0]\nconst time = time_element[1].split(\"+\")[0]\nif (msg.payload.pir === 'null')\n    msg.payload = {date: date, time: time, label: 'Obstacles'}\nelse if (msg.payload.us === 'null')\n    msg.payload = {date: date, time: time, label: 'People'}\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1460,
+        "wires": [
+            [
+                "a8bb9062f4ac9720"
+            ]
+        ]
+    },
+    {
+        "id": "a8bb9062f4ac9720",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Push event log to array",
+        "func": "var dashboardLog = flow.get('dashboardLog') || []\n\ndashboardLog.push(msg.payload)\n\nflow.set('dashboardLog', dashboardLog)\n\nmsg = {}\n\nmsg.payload = dashboardLog\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1460,
+        "wires": [
+            [
+                "edd1e3ec3caacf9a",
+                "ea08d0d173e3d4b3",
+                "e82c1bcf97c41399",
+                "0beaf88eb4701961",
+                "eb92bea201650e1d",
+                "2530d1eddac5fbb0",
+                "908b09c59dd8db8f",
+                "d9115c6d1f163303",
+                "4c962a3131ba4738",
+                "b4db82e750bbe269"
+            ]
+        ]
+    },
+    {
+        "id": "f1d3115723069ef8",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Set log empty",
+        "func": "flow.set('dashboardLog', [])\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 940,
+        "wires": [
+            [
+                "70ef6173d1f737df"
+            ]
+        ]
+    },
+    {
+        "id": "edd1e3ec3caacf9a",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "Time & Object",
+        "label": "{{msg.payload[0].time}}",
+        "format": "{{msg.payload[0].label}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1300,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "ea08d0d173e3d4b3",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "Time & Object",
+        "label": "{{msg.payload[1].time}}",
+        "format": "{{msg.payload[1].label}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1300,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "e82c1bcf97c41399",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "Time & Object",
+        "label": "{{msg.payload[2].time}}",
+        "format": "{{msg.payload[2].label}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1300,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "0beaf88eb4701961",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "name": "Time & Object",
+        "label": "{{msg.payload[3].time}}",
+        "format": "{{msg.payload[3].label}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1300,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "eb92bea201650e1d",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 12,
+        "width": 6,
+        "height": 1,
+        "name": "Time & Object",
+        "label": "{{msg.payload[4].time}}",
+        "format": "{{msg.payload[4].label}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1300,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "2530d1eddac5fbb0",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "name": "Day 0",
+        "label": "{{msg.payload[0].date}}",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1270,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "97fbd713e7862229",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "Day 1",
+        "label": "{{msg.payload[1].date}}",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1390,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "908b09c59dd8db8f",
+        "type": "switch",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload[1].date",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "payload[0].date",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1270,
+        "y": 1360,
+        "wires": [
+            [
+                "97fbd713e7862229"
+            ]
+        ]
+    },
+    {
+        "id": "1fcdb679f2db9527",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "name": "Day 2",
+        "label": "{{msg.payload[2].date}}",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1390,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d9115c6d1f163303",
+        "type": "switch",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload[2].date",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "payload[1].date",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1270,
+        "y": 1460,
+        "wires": [
+            [
+                "1fcdb679f2db9527"
+            ]
+        ]
+    },
+    {
+        "id": "f0c21703eb6221a6",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "Day 3",
+        "label": "{{msg.payload[3].date}}",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1390,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "4c962a3131ba4738",
+        "type": "switch",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload[3].date",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "payload[2].date",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1270,
+        "y": 1560,
+        "wires": [
+            [
+                "f0c21703eb6221a6"
+            ]
+        ]
+    },
+    {
+        "id": "d84bcd9e5b3629a4",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "name": "Day 4",
+        "label": "{{msg.payload[4].date}}",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1390,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "b4db82e750bbe269",
+        "type": "switch",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "property": "payload[4].date",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "payload[3].date",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1270,
+        "y": 1660,
+        "wires": [
+            [
+                "d84bcd9e5b3629a4"
+            ]
+        ]
+    },
+    {
+        "id": "ee8a028fe32bccf7",
+        "type": "ui_button",
+        "z": "e97ffe7330781f7d",
+        "name": "Re-fetch data",
+        "group": "2c0e0bd02f3de157",
+        "order": 4,
+        "width": 10,
+        "height": 1,
+        "passthru": false,
+        "label": "Data is updated after every 1 minute or you can press here",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "rgb(194, 63, 2)",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 800,
+        "y": 1060,
+        "wires": [
+            [
+                "f1d3115723069ef8",
+                "d24e133d2b0252eb"
+            ]
+        ]
+    },
+    {
+        "id": "a77ef361c385b6f9",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "b9572d272457866e",
+        "name": "CSS for Event",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    [node-id=\"2f22fbd4bd9fd6bf\"] {\n        font-size: 120%;\n        font-weight: bold;\n        color: white !important;\n        background: rgb(22, 27, 74) !important;\n        border-radius: 10px 10px;\n        height: 50px !important;\n        display: flex;\n        justify-content: center;\n    }\n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 520,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c1ed72783de79a2",
+        "type": "ui_template",
+        "z": "e97ffe7330781f7d",
+        "group": "a9b33ea4ff1e3666",
+        "name": "CSS for Welcome ",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    #App_Welcome_cards {\n        display: flex;\n        justify-content: center;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 610,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "efcf2cc2549911e5",
+        "type": "ui_text",
+        "z": "e97ffe7330781f7d",
+        "group": "2c0e0bd02f3de157",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "The device has been used for",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 430,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "74ccffb356ebf99d",
+        "type": "function",
+        "z": "e97ffe7330781f7d",
+        "name": "Get day diff",
+        "func": "var cur_date = new Date()\nvar start_date = new Date(\"2022/07/15\");  // some date\nvar diff_ms = Math.abs(cur_date - start_date);  // difference in milliseconds\nvar diff_days = Math.round(diff_ms / 86400000)\nmsg.payload = diff_days.toString() + ' days'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1100,
+        "wires": [
+            [
+                "efcf2cc2549911e5"
+            ]
+        ]
+    },
+    {
+        "id": "23997f4a4a09e1e4",
+        "type": "inject",
+        "z": "e97ffe7330781f7d",
+        "name": "Trigger day-diff calculation",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 420,
+        "y": 1040,
+        "wires": [
+            [
+                "74ccffb356ebf99d"
+            ]
+        ]
     }
 ]
