@@ -154,7 +154,7 @@
         "tab": "b97a11b97c8b88db",
         "order": 5,
         "disp": false,
-        "width": 10,
+        "width": "10",
         "collapse": false,
         "className": ""
     },
@@ -220,14 +220,6 @@
         "willPayload": "",
         "willMsg": {},
         "sessionExpiry": ""
-    },
-    {
-        "id": "9a3dd8472476b8f4",
-        "type": "ui_tab",
-        "name": "Event Logs",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "a8de552b7d3d1abf",
@@ -1202,7 +1194,8 @@
         "y": 2000,
         "wires": [
             [
-                "03e3af96ed437980"
+                "03e3af96ed437980",
+                "88d2799110f7eeb3"
             ]
         ]
     },
@@ -1825,6 +1818,51 @@
         "wires": [
             [
                 "74ccffb356ebf99d"
+            ]
+        ]
+    },
+    {
+        "id": "88d2799110f7eeb3",
+        "type": "debug",
+        "z": "e97ffe7330781f7d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "43efa1c4cde64a5e",
+        "type": "inject",
+        "z": "e97ffe7330781f7d",
+        "name": "Set default UI appearance",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"App_Login\",\"App_Logs\", \"App_Adjustment\", \"App_Welcome\"], \"show\":[\"App_Intro\"]}}",
+        "payloadType": "json",
+        "x": 1760,
+        "y": 400,
+        "wires": [
+            [
+                "3d47f2cbbce208f5"
             ]
         ]
     }
