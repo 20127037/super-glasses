@@ -1818,7 +1818,7 @@
         ],
         "repeat": "",
         "crontab": "01 00 * * *",
-        "once": false,
+        "once": true,
         "onceDelay": "1",
         "topic": "",
         "payload": "",
