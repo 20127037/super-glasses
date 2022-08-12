@@ -1,6 +1,6 @@
 [
     {
-        "id": "29e2101f3fb618bb",
+        "id": "e434bed174fc1c5e",
         "type": "tab",
         "label": "App",
         "disabled": false,
@@ -222,9 +222,9 @@
         "sessionExpiry": ""
     },
     {
-        "id": "9b082de1bcd133a8",
+        "id": "175aba4f9329448c",
         "type": "ui_spacer",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "spacer",
         "group": "061b7add36b698f8",
         "order": 3,
@@ -232,9 +232,9 @@
         "height": 1
     },
     {
-        "id": "2042a7962f6bf10f",
+        "id": "01757f4fbbc43c47",
         "type": "ui_spacer",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "spacer",
         "group": "061b7add36b698f8",
         "order": 5,
@@ -242,9 +242,9 @@
         "height": 1
     },
     {
-        "id": "748f427e6f34d0c6",
+        "id": "1b12c0521726dd72",
         "type": "ui_spacer",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "spacer",
         "group": "ad3154be14dd1c13",
         "order": 2,
@@ -252,9 +252,9 @@
         "height": 1
     },
     {
-        "id": "71903987a102c237",
+        "id": "4fa0132c493efae7",
         "type": "ui_button",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "group": "061b7add36b698f8",
         "order": 4,
@@ -275,14 +275,14 @@
         "y": 140,
         "wires": [
             [
-                "ddaa8758e04a02eb"
+                "f558f39d938c4bb4"
             ]
         ]
     },
     {
-        "id": "2634eb36a16c84da",
+        "id": "06a247853e6dd1af",
         "type": "ui_button",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "group": "2c0e0bd02f3de157",
         "order": 3,
@@ -303,14 +303,14 @@
         "y": 820,
         "wires": [
             [
-                "ddaa8758e04a02eb"
+                "f558f39d938c4bb4"
             ]
         ]
     },
     {
-        "id": "3f8b6ef01e159a67",
+        "id": "60a7fd9f3943557a",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 1,
         "width": 0,
@@ -325,9 +325,9 @@
         "wires": []
     },
     {
-        "id": "f326f2e916b2f0db",
+        "id": "d10b5fe383fb569a",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "a9b33ea4ff1e3666",
         "order": 1,
         "width": 0,
@@ -342,9 +342,9 @@
         "wires": []
     },
     {
-        "id": "b8bfeb0cd3d127fc",
+        "id": "638b1b8f9c440702",
         "type": "ui_text_input",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "label": "Distance to obstacles",
         "tooltip": "",
@@ -363,14 +363,14 @@
         "y": 2160,
         "wires": [
             [
-                "116973d9fc7234a1"
+                "085e781f29a951e2"
             ]
         ]
     },
     {
-        "id": "b113e82f54baaa99",
+        "id": "fa899b03c432079b",
         "type": "ui_dropdown",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "label": "PIR's sound",
         "tooltip": "",
@@ -406,14 +406,14 @@
         "y": 1940,
         "wires": [
             [
-                "ace01aca40b7de53"
+                "4660b1c3fd1bbc51"
             ]
         ]
     },
     {
-        "id": "ddaa8758e04a02eb",
+        "id": "f558f39d938c4bb4",
         "type": "ui_ui_control",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "events": "all",
         "x": 2220,
@@ -423,9 +423,9 @@
         ]
     },
     {
-        "id": "c3968e7d55ee81ed",
+        "id": "c67bd84d1b0d956a",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "061b7add36b698f8",
         "name": "Greeting",
         "order": 1,
@@ -444,9 +444,9 @@
         ]
     },
     {
-        "id": "388f202528545fc8",
+        "id": "1cbe9d8b8a5ba164",
         "type": "ui_form",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "label": "",
         "group": "ad3154be14dd1c13",
@@ -484,15 +484,15 @@
         "y": 440,
         "wires": [
             [
-                "92ed705b193a37b4",
-                "1805876f1aaac4fa"
+                "ea846dbc95201905",
+                "f0301396550c9e0e"
             ]
         ]
     },
     {
-        "id": "92ed705b193a37b4",
+        "id": "ea846dbc95201905",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Wrap account info and send",
         "func": "var account = {\n    username: msg.payload.username,\n    password: msg.payload.password\n}\nmsg.payload = JSON.stringify(account)\nreturn msg",
         "outputs": 1,
@@ -504,15 +504,15 @@
         "y": 440,
         "wires": [
             [
-                "089c64a6abf14a7f",
-                "71a2b92f08f0cdd5"
+                "c2eb6174ac3bf8b4",
+                "577e28be4656e21e"
             ]
         ]
     },
     {
-        "id": "089c64a6abf14a7f",
+        "id": "c2eb6174ac3bf8b4",
         "type": "mqtt out",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/LoginInfo",
         "qos": "",
@@ -528,9 +528,9 @@
         "wires": []
     },
     {
-        "id": "d71031e3f9179a91",
+        "id": "147e7f2cd2e71790",
         "type": "mqtt in",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/LoginResponse",
         "qos": "2",
@@ -544,14 +544,14 @@
         "y": 660,
         "wires": [
             [
-                "098e6e0d89b1527d"
+                "c4407846e92969d5"
             ]
         ]
     },
     {
-        "id": "97e5156968abc622",
+        "id": "0497cd623c2d209a",
         "type": "switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Verify account",
         "property": "payload.response",
         "propertyType": "msg",
@@ -579,25 +579,25 @@
         "y": 660,
         "wires": [
             [
-                "aec5fd4b930e16da",
-                "b5e1bf9649abf758"
+                "83fc9d7a8522cf1e",
+                "bc87cec87c26d5e2"
             ],
             [
-                "9cf36ef8c83e9902",
-                "b5e1bf9649abf758",
-                "544c0915a1598bbd"
+                "3a33dfa37412b935",
+                "bc87cec87c26d5e2",
+                "0b69fe45e491bfd8"
             ],
             [
-                "b5e1bf9649abf758",
-                "db80923ef0153dab",
-                "544c0915a1598bbd"
+                "bc87cec87c26d5e2",
+                "08473ed117e864dd",
+                "0b69fe45e491bfd8"
             ]
         ]
     },
     {
-        "id": "9cf36ef8c83e9902",
+        "id": "3a33dfa37412b935",
         "type": "change",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Login as Admin",
         "rules": [
             {
@@ -617,14 +617,14 @@
         "y": 620,
         "wires": [
             [
-                "ddaa8758e04a02eb"
+                "f558f39d938c4bb4"
             ]
         ]
     },
     {
-        "id": "83ade733073163a1",
+        "id": "4aac1151ce5bc759",
         "type": "ui_button",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "group": "ad3154be14dd1c13",
         "order": 4,
@@ -645,14 +645,14 @@
         "y": 300,
         "wires": [
             [
-                "ddaa8758e04a02eb"
+                "f558f39d938c4bb4"
             ]
         ]
     },
     {
-        "id": "098e6e0d89b1527d",
+        "id": "c4407846e92969d5",
         "type": "json",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload",
         "action": "",
@@ -661,14 +661,14 @@
         "y": 660,
         "wires": [
             [
-                "97e5156968abc622"
+                "0497cd623c2d209a"
             ]
         ]
     },
     {
-        "id": "3627f0c1585180ce",
+        "id": "ad29b046d1ce805c",
         "type": "comment",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Section Login _________________________________________________________________________________________________________________________________________________",
         "info": "",
         "x": 760,
@@ -676,9 +676,9 @@
         "wires": []
     },
     {
-        "id": "a97e0b262f128ceb",
+        "id": "717e96f5e769f83e",
         "type": "comment",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Section Dashboard _____________________________________________________________________________________________________________________________________________",
         "info": "",
         "x": 760,
@@ -686,9 +686,9 @@
         "wires": []
     },
     {
-        "id": "88d6e3a9304560e8",
+        "id": "d2254f5a9a4caea2",
         "type": "comment",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Section Intro  __________________________________________________________________________________________________________________________________________________",
         "info": "",
         "x": 760,
@@ -696,9 +696,9 @@
         "wires": []
     },
     {
-        "id": "939b821be8c0ea2e",
+        "id": "2c93d3553e00f2c6",
         "type": "ui_switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "label": "PIR status",
         "tooltip": "",
@@ -725,14 +725,14 @@
         "y": 1880,
         "wires": [
             [
-                "74da0aee8c57ad06"
+                "2d7a8dbe23cb4de9"
             ]
         ]
     },
     {
-        "id": "116973d9fc7234a1",
+        "id": "085e781f29a951e2",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Request distance change",
         "func": "if (msg.payload !== '')\n    msg.payload = JSON.stringify({distance: msg.payload})\nelse msg.payload = 'Empty string'\nreturn msg;",
         "outputs": 1,
@@ -744,14 +744,14 @@
         "y": 2160,
         "wires": [
             [
-                "b18c68ca8d9ce51c"
+                "5ec6effa236f97d1"
             ]
         ]
     },
     {
-        "id": "b18c68ca8d9ce51c",
+        "id": "5ec6effa236f97d1",
         "type": "mqtt out",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/ObstacleDistance",
         "qos": "",
@@ -767,9 +767,9 @@
         "wires": []
     },
     {
-        "id": "c738c90d0e8d8e1c",
+        "id": "e3bc22faaec0b3f3",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "061b7add36b698f8",
         "name": "",
         "order": 2,
@@ -788,9 +788,9 @@
         ]
     },
     {
-        "id": "127fcba1c152676a",
+        "id": "4632001302602e29",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "ad3154be14dd1c13",
         "name": "",
         "order": 3,
@@ -809,9 +809,9 @@
         ]
     },
     {
-        "id": "0f3204a838ac6bf3",
+        "id": "1efcd21e4d321db0",
         "type": "ui_toast",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "position": "bottom right",
         "displayTime": "2",
         "highlight": "red",
@@ -828,9 +828,9 @@
         "wires": []
     },
     {
-        "id": "aec5fd4b930e16da",
+        "id": "83fc9d7a8522cf1e",
         "type": "change",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Login Failed",
         "rules": [
             {
@@ -850,14 +850,14 @@
         "y": 540,
         "wires": [
             [
-                "0f3204a838ac6bf3"
+                "1efcd21e4d321db0"
             ]
         ]
     },
     {
-        "id": "71a2b92f08f0cdd5",
+        "id": "577e28be4656e21e",
         "type": "trigger",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Inform server error after 3s",
         "op1": "",
         "op2": "The server may not be turned on. Try again later!",
@@ -875,20 +875,20 @@
         "y": 460,
         "wires": [
             [
-                "0f3204a838ac6bf3"
+                "1efcd21e4d321db0"
             ]
         ]
     },
     {
-        "id": "d5f990ab059ce8c2",
+        "id": "f8122bc63bf17c18",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "a9b33ea4ff1e3666",
         "name": "CSS for Adjustment",
         "order": 7,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    [node-id=\"f326f2e916b2f0db\"] {\n    font-size: 120%;\n    font-weight: bold;\n    color: white !important;\n    background: rgb(22, 27, 74) !important;\n    border-radius: 10px 10px;\n    height: 50px !important;\n    display: flex;\n    justify-content: center;\n    }\n    \n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n</style>",
+        "format": "<style>\n    [node-id=\"d10b5fe383fb569a\"] {\n    font-size: 120%;\n    font-weight: bold;\n    color: white !important;\n    background: rgb(22, 27, 74) !important;\n    border-radius: 10px 10px;\n    height: 50px !important;\n    display: flex;\n    justify-content: center;\n    }\n    \n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -901,9 +901,9 @@
         ]
     },
     {
-        "id": "1805876f1aaac4fa",
+        "id": "f0301396550c9e0e",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "2c0e0bd02f3de157",
         "order": 1,
         "width": 4,
@@ -918,9 +918,9 @@
         "wires": []
     },
     {
-        "id": "59dceef7cfd6b291",
+        "id": "2de3fa114062d10d",
         "type": "ui_switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "label": "Ultrasonic status",
         "tooltip": "",
@@ -947,14 +947,14 @@
         "y": 2000,
         "wires": [
             [
-                "74da0aee8c57ad06"
+                "2d7a8dbe23cb4de9"
             ]
         ]
     },
     {
-        "id": "b5e1bf9649abf758",
+        "id": "bc87cec87c26d5e2",
         "type": "change",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Deactivate the trigger because of server working",
         "rules": [
             {
@@ -974,14 +974,14 @@
         "y": 540,
         "wires": [
             [
-                "71a2b92f08f0cdd5"
+                "577e28be4656e21e"
             ]
         ]
     },
     {
-        "id": "999911d01ef41c55",
+        "id": "5c5e024bd5620bf8",
         "type": "ui_dropdown",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "label": "US's Sound",
         "tooltip": "",
@@ -1017,14 +1017,14 @@
         "y": 2060,
         "wires": [
             [
-                "ace01aca40b7de53"
+                "4660b1c3fd1bbc51"
             ]
         ]
     },
     {
-        "id": "ace01aca40b7de53",
+        "id": "4660b1c3fd1bbc51",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Request sound change",
         "func": "msg.payload = JSON.stringify({type: msg.topic, mode: msg.payload})\nreturn msg;",
         "outputs": 1,
@@ -1036,14 +1036,14 @@
         "y": 1980,
         "wires": [
             [
-                "c9f2b95e45d13f01"
+                "6343fa1f75e48186"
             ]
         ]
     },
     {
-        "id": "c9f2b95e45d13f01",
+        "id": "6343fa1f75e48186",
         "type": "mqtt out",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/Sound",
         "qos": "",
@@ -1059,9 +1059,9 @@
         "wires": []
     },
     {
-        "id": "74da0aee8c57ad06",
+        "id": "2d7a8dbe23cb4de9",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Request button status change",
         "func": "msg.payload = JSON.stringify({\n    command: 'write',\n    button: msg.topic,\n    status: msg.payload\n})\nreturn msg;",
         "outputs": 1,
@@ -1073,14 +1073,14 @@
         "y": 1920,
         "wires": [
             [
-                "461723f5a1be71b3"
+                "afc3b291ca55bc10"
             ]
         ]
     },
     {
-        "id": "461723f5a1be71b3",
+        "id": "afc3b291ca55bc10",
         "type": "mqtt out",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/Status",
         "qos": "",
@@ -1096,9 +1096,9 @@
         "wires": []
     },
     {
-        "id": "2e07ea5569ea3c5b",
+        "id": "2b6c16ed8fece74d",
         "type": "mqtt out",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/Status",
         "qos": "",
@@ -1114,9 +1114,9 @@
         "wires": []
     },
     {
-        "id": "fab6a0846dec822b",
+        "id": "6cc332bb39fe1462",
         "type": "mqtt in",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/StatusResponse",
         "qos": "2",
@@ -1130,14 +1130,14 @@
         "y": 1920,
         "wires": [
             [
-                "419e4d438faf39f2"
+                "97a0fcb15550d098"
             ]
         ]
     },
     {
-        "id": "419e4d438faf39f2",
+        "id": "97a0fcb15550d098",
         "type": "json",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload",
         "action": "obj",
@@ -1146,15 +1146,15 @@
         "y": 1920,
         "wires": [
             [
-                "50ce3ce1dea4b395",
-                "fb160346d421599d"
+                "9ad2688331f8e17b",
+                "5de7ccddf84c2633"
             ]
         ]
     },
     {
-        "id": "c4fe3924d32afe52",
+        "id": "2b6732c937315812",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Fetch buttons' status",
         "func": "msg.payload = JSON.stringify({command:\"read\"})\nreturn msg;",
         "outputs": 1,
@@ -1166,14 +1166,14 @@
         "y": 880,
         "wires": [
             [
-                "2e07ea5569ea3c5b"
+                "2b6c16ed8fece74d"
             ]
         ]
     },
     {
-        "id": "50ce3ce1dea4b395",
+        "id": "9ad2688331f8e17b",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "fetch PIR's status",
         "func": "if (msg.payload.PIR == 1) msg.payload = 'HIGH'\nelse msg.payload = 'LOW'\nreturn msg;",
         "outputs": 1,
@@ -1185,14 +1185,14 @@
         "y": 1880,
         "wires": [
             [
-                "939b821be8c0ea2e"
+                "2c93d3553e00f2c6"
             ]
         ]
     },
     {
-        "id": "fb160346d421599d",
+        "id": "5de7ccddf84c2633",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "fetch US's status",
         "func": "if (msg.payload.US == 1) msg.payload = 'HIGH'\nelse msg.payload = 'LOW'\nreturn msg;",
         "outputs": 1,
@@ -1204,15 +1204,14 @@
         "y": 2000,
         "wires": [
             [
-                "59dceef7cfd6b291",
-                "f9b01541f47da183"
+                "2de3fa114062d10d"
             ]
         ]
     },
     {
-        "id": "db80923ef0153dab",
+        "id": "08473ed117e864dd",
         "type": "change",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Login as Guest",
         "rules": [
             {
@@ -1232,14 +1231,14 @@
         "y": 700,
         "wires": [
             [
-                "ddaa8758e04a02eb"
+                "f558f39d938c4bb4"
             ]
         ]
     },
     {
-        "id": "544c0915a1598bbd",
+        "id": "0b69fe45e491bfd8",
         "type": "trigger",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Trigger buttons status every 3 minutes",
         "op1": "1",
         "op2": "2",
@@ -1257,15 +1256,15 @@
         "y": 780,
         "wires": [
             [
-                "c4fe3924d32afe52",
-                "155bda8975d45757"
+                "2b6732c937315812",
+                "9ad98534adcb68a9"
             ]
         ]
     },
     {
-        "id": "f14ceda3b959be76",
+        "id": "d8171c835311e068",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "061b7add36b698f8",
         "name": "Author Reference",
         "order": 6,
@@ -1284,15 +1283,15 @@
         ]
     },
     {
-        "id": "bef77459ec3448a4",
+        "id": "2e5ae03e5a694188",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "061b7add36b698f8",
         "name": "Contact",
         "order": 7,
         "width": 8,
         "height": 3,
-        "format": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n    [node-id=\"bef77459ec3448a4\"] {\n        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;\n        border-top: 5px solid rgb(11, 55, 112);\n        height: 200px !important;\n    }\n    h3, p {\n        text-align: center;\n    }\n    #contact_container {\n        padding: 0px 50px;\n        margin-top: 25px;\n        display: flex;\n        flex-flow: column;\n        justify-content: space-between;\n        align-items: space-evenly;\n        height: 100px !important;\n    }\n    .contact_element {\n        display: flex;\n        flex-flow: row;\n        justify-content: space-between;\n    }\n    .contact_img {\n        width: 30px !important;\n        height: 30px !important;\n    }\n</style>\n</head>\n<body>\n    <h3> Contact us </h3>\n    <div id = \"contact_container\">\n        <div class = \"contact_element\"> \n            <img class = \"contact_img\" src = \"https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png\" />\n            <p> (+84) 77 4848 931 </p>\n        </div>\n        <div class = \"contact_element\">\n            <img class = \"contact_img\" src = \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png\" />\n            <p> lnthuy20@clc.fitus.edu.vn </p>\n        </div>\n    </div>\n</body>\n</html>",
+        "format": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n    [node-id=\"2e5ae03e5a694188\"] {\n        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;\n        border-top: 5px solid rgb(11, 55, 112);\n        height: 200px !important;\n    }\n    h3, p {\n        text-align: center;\n    }\n    #contact_container {\n        padding: 0px 50px;\n        margin-top: 25px;\n        display: flex;\n        flex-flow: column;\n        justify-content: space-between;\n        align-items: space-evenly;\n        height: 100px !important;\n    }\n    .contact_element {\n        display: flex;\n        flex-flow: row;\n        justify-content: space-between;\n    }\n    .contact_img {\n        width: 30px !important;\n        height: 30px !important;\n    }\n</style>\n</head>\n<body>\n    <h3> Contact us </h3>\n    <div id = \"contact_container\">\n        <div class = \"contact_element\"> \n            <img class = \"contact_img\" src = \"https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png\" />\n            <p> (+84) 77 4848 931 </p>\n        </div>\n        <div class = \"contact_element\">\n            <img class = \"contact_img\" src = \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png\" />\n            <p> lnthuy20@clc.fitus.edu.vn </p>\n        </div>\n    </div>\n</body>\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1305,9 +1304,9 @@
         ]
     },
     {
-        "id": "ed0d321d56471f64",
+        "id": "595bfe44a9edd3d5",
         "type": "mqtt out",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/Log",
         "qos": "",
@@ -1323,9 +1322,9 @@
         "wires": []
     },
     {
-        "id": "9787b369dd7b01ce",
+        "id": "7842f09d82d21c0d",
         "type": "mqtt in",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "topic": "message/LogResponse",
         "qos": "2",
@@ -1339,14 +1338,14 @@
         "y": 1460,
         "wires": [
             [
-                "d7e46efb18102217"
+                "acb10c60bc833dbf"
             ]
         ]
     },
     {
-        "id": "d7e46efb18102217",
+        "id": "acb10c60bc833dbf",
         "type": "json",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload",
         "action": "",
@@ -1355,14 +1354,14 @@
         "y": 1460,
         "wires": [
             [
-                "b9da4c64ede5d2b3"
+                "f3421a4ecdaf6c0e"
             ]
         ]
     },
     {
-        "id": "b9da4c64ede5d2b3",
+        "id": "f3421a4ecdaf6c0e",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Format event",
         "func": "const time_element = msg.payload.time.split(\"T\")\nconst date = time_element[0]\nconst time = time_element[1].split(\"+\")[0]\nif (msg.payload.pir === 'null')\n    msg.payload = {date: date, time: time, label: 'Obstacles'}\nelse if (msg.payload.us === 'null')\n    msg.payload = {date: date, time: time, label: 'People'}\n    \nreturn msg;",
         "outputs": 1,
@@ -1374,14 +1373,14 @@
         "y": 1460,
         "wires": [
             [
-                "c8ed7dd07fbed721"
+                "fc2753aad3f3a5dc"
             ]
         ]
     },
     {
-        "id": "c8ed7dd07fbed721",
+        "id": "fc2753aad3f3a5dc",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Push event log to array",
         "func": "var dashboardLog = flow.get('dashboardLog') || []\n\ndashboardLog.push(msg.payload)\n\nflow.set('dashboardLog', dashboardLog)\n\nmsg = {}\n\nmsg.payload = dashboardLog\n\nreturn msg",
         "outputs": 1,
@@ -1393,23 +1392,23 @@
         "y": 1460,
         "wires": [
             [
-                "a017b8cc5b36168a",
-                "59e49b299d705916",
-                "808fc33e55dc6699",
-                "27c7c3397e34c989",
-                "583e0b4d7f5d5d30",
-                "10d81353229ceda8",
-                "5825e2bfccfeb432",
-                "1954b231f9fa1174",
-                "ace232e5c748292d",
-                "8ac563d0eb5a598f"
+                "1012f8ff9c9d6812",
+                "f8c866124bafafa6",
+                "ec752271012e0585",
+                "bb620db470d6ac1a",
+                "b91c95d52486678f",
+                "2fe5bbb1bea69d3f",
+                "b2bac68faba7ca1f",
+                "5c30dfbead661fd2",
+                "0e28cb360a29b419",
+                "e3869b5f1f1d735b"
             ]
         ]
     },
     {
-        "id": "155bda8975d45757",
+        "id": "9ad98534adcb68a9",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Set log empty",
         "func": "flow.set('dashboardLog', [])\nreturn msg",
         "outputs": 1,
@@ -1421,14 +1420,14 @@
         "y": 940,
         "wires": [
             [
-                "ed0d321d56471f64"
+                "595bfe44a9edd3d5"
             ]
         ]
     },
     {
-        "id": "a017b8cc5b36168a",
+        "id": "1012f8ff9c9d6812",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 3,
         "width": 6,
@@ -1443,9 +1442,9 @@
         "wires": []
     },
     {
-        "id": "59e49b299d705916",
+        "id": "f8c866124bafafa6",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 5,
         "width": 6,
@@ -1460,9 +1459,9 @@
         "wires": []
     },
     {
-        "id": "808fc33e55dc6699",
+        "id": "ec752271012e0585",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 7,
         "width": 6,
@@ -1477,9 +1476,9 @@
         "wires": []
     },
     {
-        "id": "27c7c3397e34c989",
+        "id": "bb620db470d6ac1a",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 10,
         "width": 6,
@@ -1494,9 +1493,9 @@
         "wires": []
     },
     {
-        "id": "583e0b4d7f5d5d30",
+        "id": "b91c95d52486678f",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 12,
         "width": 6,
@@ -1511,9 +1510,9 @@
         "wires": []
     },
     {
-        "id": "10d81353229ceda8",
+        "id": "2fe5bbb1bea69d3f",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 2,
         "width": 4,
@@ -1528,9 +1527,9 @@
         "wires": []
     },
     {
-        "id": "95977fa8644666a1",
+        "id": "9f5be6a66d3af02f",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 4,
         "width": 4,
@@ -1545,9 +1544,9 @@
         "wires": []
     },
     {
-        "id": "5825e2bfccfeb432",
+        "id": "b2bac68faba7ca1f",
         "type": "switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload[1].date",
         "propertyType": "msg",
@@ -1565,14 +1564,14 @@
         "y": 1360,
         "wires": [
             [
-                "95977fa8644666a1"
+                "9f5be6a66d3af02f"
             ]
         ]
     },
     {
-        "id": "81af08f8b7f6dc1f",
+        "id": "594da95ad39ac6c1",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 6,
         "width": 4,
@@ -1587,9 +1586,9 @@
         "wires": []
     },
     {
-        "id": "1954b231f9fa1174",
+        "id": "5c30dfbead661fd2",
         "type": "switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload[2].date",
         "propertyType": "msg",
@@ -1607,14 +1606,14 @@
         "y": 1460,
         "wires": [
             [
-                "81af08f8b7f6dc1f"
+                "594da95ad39ac6c1"
             ]
         ]
     },
     {
-        "id": "df7f0b42d01c7b88",
+        "id": "001c4f54d2e1c4ad",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 9,
         "width": 4,
@@ -1629,9 +1628,9 @@
         "wires": []
     },
     {
-        "id": "ace232e5c748292d",
+        "id": "0e28cb360a29b419",
         "type": "switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload[3].date",
         "propertyType": "msg",
@@ -1649,14 +1648,14 @@
         "y": 1560,
         "wires": [
             [
-                "df7f0b42d01c7b88"
+                "001c4f54d2e1c4ad"
             ]
         ]
     },
     {
-        "id": "d868cb90f0e1bc58",
+        "id": "1eb0bd2718b0696a",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "order": 11,
         "width": 4,
@@ -1671,9 +1670,9 @@
         "wires": []
     },
     {
-        "id": "8ac563d0eb5a598f",
+        "id": "e3869b5f1f1d735b",
         "type": "switch",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "",
         "property": "payload[4].date",
         "propertyType": "msg",
@@ -1691,14 +1690,14 @@
         "y": 1660,
         "wires": [
             [
-                "d868cb90f0e1bc58"
+                "1eb0bd2718b0696a"
             ]
         ]
     },
     {
-        "id": "c4de86ef90117ae0",
+        "id": "c36c32aaacd79cc3",
         "type": "ui_button",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Re-fetch data",
         "group": "2c0e0bd02f3de157",
         "order": 4,
@@ -1719,21 +1718,21 @@
         "y": 1060,
         "wires": [
             [
-                "155bda8975d45757",
-                "c4fe3924d32afe52"
+                "9ad98534adcb68a9",
+                "2b6732c937315812"
             ]
         ]
     },
     {
-        "id": "7859db3bfa1f3913",
+        "id": "073b4fc68b011f04",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "b9572d272457866e",
         "name": "CSS for Event",
         "order": 8,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    [node-id=\"3f8b6ef01e159a67\"] {\n        font-size: 120%;\n        font-weight: bold;\n        color: white !important;\n        background: rgb(22, 27, 74) !important;\n        border-radius: 10px 10px;\n        height: 50px !important;\n        display: flex;\n        justify-content: center;\n    }\n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n</style>",
+        "format": "<style>\n    [node-id=\"60a7fd9f3943557a\"] {\n        font-size: 120%;\n        font-weight: bold;\n        color: white !important;\n        background: rgb(22, 27, 74) !important;\n        border-radius: 10px 10px;\n        height: 50px !important;\n        display: flex;\n        justify-content: center;\n    }\n    .nr-dashboard-button {\n        height: 50px !important;\n    }\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1746,9 +1745,9 @@
         ]
     },
     {
-        "id": "e89452719986c46b",
+        "id": "d2c38f42ab3968a7",
         "type": "ui_template",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "a9b33ea4ff1e3666",
         "name": "CSS for Welcome ",
         "order": 8,
@@ -1767,9 +1766,9 @@
         ]
     },
     {
-        "id": "12513a58c5aa0d04",
+        "id": "6ec48ee31dbd9522",
         "type": "ui_text",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "group": "2c0e0bd02f3de157",
         "order": 2,
         "width": 6,
@@ -1784,9 +1783,9 @@
         "wires": []
     },
     {
-        "id": "7b19278f197af575",
+        "id": "a80d98871696dc5a",
         "type": "function",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Get day diff",
         "func": "var cur_date = new Date()\nvar start_date = new Date(\"2022/07/15\");  // some date\nvar diff_ms = Math.abs(cur_date - start_date);  // difference in milliseconds\nvar diff_days = Math.round(diff_ms / 86400000)\nmsg.payload = diff_days.toString() + ' days'\nreturn msg;",
         "outputs": 1,
@@ -1798,14 +1797,14 @@
         "y": 1100,
         "wires": [
             [
-                "12513a58c5aa0d04"
+                "6ec48ee31dbd9522"
             ]
         ]
     },
     {
-        "id": "c62e0e83b48e4eed",
+        "id": "d6f925db0f7c6bb9",
         "type": "inject",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Trigger day-diff calculation",
         "props": [
             {
@@ -1827,30 +1826,14 @@
         "y": 1040,
         "wires": [
             [
-                "7b19278f197af575"
+                "a80d98871696dc5a"
             ]
         ]
     },
     {
-        "id": "f9b01541f47da183",
-        "type": "debug",
-        "z": "29e2101f3fb618bb",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 920,
-        "y": 2060,
-        "wires": []
-    },
-    {
-        "id": "13b1b738aeb037ee",
+        "id": "5b46b2268023d5e8",
         "type": "inject",
-        "z": "29e2101f3fb618bb",
+        "z": "e434bed174fc1c5e",
         "name": "Reset the default UI ",
         "props": [
             {
@@ -1861,7 +1844,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "300",
+        "repeat": "900",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -1872,7 +1855,7 @@
         "y": 200,
         "wires": [
             [
-                "ddaa8758e04a02eb"
+                "f558f39d938c4bb4"
             ]
         ]
     }
